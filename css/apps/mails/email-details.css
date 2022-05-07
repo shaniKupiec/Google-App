@@ -1,0 +1,56 @@
+.email-details{
+    position: relative;
+    margin: 40px 10px;
+    width: 60%;
+    font-family: roboto;
+}
+
+.email-details>*{
+    margin: 10px;
+}
+
+.details-icons{
+    position: absolute;
+    /* opacity: .54;
+    cursor: pointer; */
+    right: 15px;
+}
+
+.email-details img{
+    /* position: absolute; */
+    opacity: .54;
+    cursor: pointer;
+}
+
+.email-details .trash{
+    margin-right: 10px;
+}
+
+
+
+.email-details img:hover{
+    opacity: 1;
+}
+
+.email-details h1{
+    font-size: 2em;
+    max-width: 75%;
+}
+
+.email-details h2{
+    font-size: 1.3em;
+}
+
+.email-details h3{
+    font-size: 1em;
+    color: rgb(92, 91, 91);
+}
+
+.email-details hr.body{
+    width: 80%;
+    margin: 20px 0;
+}
+
+.email-details p{
+    max-width: 80%;
+}

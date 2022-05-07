@@ -1,0 +1,123 @@
+/* MOBILE ONLY  */
+
+@media (max-width: 740px) {
+    /* folder-list */
+
+    .email-folder-list {
+        position: fixed;
+        top: 40px;
+        left: 0;
+        flex-direction: column;
+        background-color: rgb(255 255 255 / 90%);
+        height: 100vh;
+        width: 80%;
+        border-left: solid 1px var(--clr6);
+        transform: translateX(-120%);
+        z-index: 20;
+        transition: transform .6s, box-shadow .6s
+    }
+
+    .menu-open .email-folder-list {
+        transform: translateX(-20px);
+        box-shadow: -10px 0px 13px rgb(0 0 0 / 16%);
+    }
+
+    .email-folder-list ul, button {
+        margin: 20px
+    }
+
+    .email-folder-list li {
+        width: 90%;
+    }
+
+    .email-folder-list .unread-count {
+        float: right;
+        padding: 10px;
+    }
+
+    .email-list {
+        margin: 10px auto;
+        width: 90%;
+    }
+
+    /* email-preview */
+
+    .email-preview .from-subject{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+
+    .email-preview .from{
+        margin-inline-start: 0;
+    }
+
+    .email-preview .subject{
+        opacity: .7;
+    }
+
+    /* email-filter */
+
+    .filter-nav{
+        width: 90%;
+        margin: 10px;
+    }
+
+    .filter-nav input{
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .email-details{
+        width: 80%;
+    }
+
+    .email-details img{
+        right: 1%;
+    }
+
+    .compose-container {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .compose-container textarea {
+        width: 100%;
+    }
+
+    .email-list{
+        margin: 0 auto;
+        padding-block: 0;
+    }
+
+    .email-list button{
+        margin-bottom: 15px;
+    }
+
+    .main-content{
+        margin-bottom: 25px;
+    }
+
+
+}
+
+
+/* SMALL */
+
+@media (min-width: 550px) {}
+
+
+/* MEDIUM */
+
+@media (min-width: 780px) {
+    .btn-menu{
+        display: none;
+    }
+}
+
+
+/* LARGE */
+
+@media (min-width: 1100px) {}

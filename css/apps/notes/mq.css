@@ -1,0 +1,33 @@
+/* MOBILE ONLY  */
+
+@media (max-width: 440px) {
+    .add-note-container span.first{
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .add-note-container span input{
+        width: 100% !important;
+    }
+}
+
+
+/* SMALL */
+
+@media (min-width: 440px) {
+    .add-note-container span{
+        flex-direction: row;
+    }
+}
+
+
+/* MEDIUM */
+
+@media (min-width: 920px) {
+}
+
+
+/* LARGE */
+
+@media (min-width: 1120px) {
+}

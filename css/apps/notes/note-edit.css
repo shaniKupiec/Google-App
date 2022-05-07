@@ -1,0 +1,51 @@
+.edit-modal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    min-width: 10%;
+    max-width: 70%;
+    height: 70%;
+    margin: 0;
+    z-index: 20;
+    padding: 20px;
+}
+
+.edit-modal h4{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.edit-modal p{
+    overflow: hidden;
+}
+
+.edit-modal .icons-nav{
+    padding-top: 12px;
+    visibility: hidden;
+}
+
+.edit-modal:hover .icons-nav{
+    visibility: visible;
+}
+
+.edit-modal .modal-colors{
+    left: 10%;
+    bottom: -10%;
+}
+
+.img-container{
+    height: 75%;
+}
+
+.img-container img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.edit-bottom{
+    margin-top: 20px;
+    bottom: 20px;
+    position: absolute;
+    width: 90%;
+}

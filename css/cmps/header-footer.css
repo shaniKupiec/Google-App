@@ -1,0 +1,60 @@
+.app-head, .app-footer{
+    height: 50px;
+    font-size: 1.3rem;
+}
+
+/* header */
+
+.logo img{
+    height: 50px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.menu-icon{
+    height: 35px;
+    width: 35px;
+}
+
+.nav-bar .menu-icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.routers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+    position: fixed;
+    top: 55px;
+    right: 2%;
+    flex-direction: column;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-left: solid 1px var(--clr6);
+    transform: translateX(120%);
+    z-index: 20;
+    transition: transform .6s, box-shadow .6s;
+}
+
+.routers-container.open {
+    transform: translateX(10px);
+    box-shadow: -10px 0px 13px rgb(0 0 0 / 16%);
+}
+
+.routers-container>*{
+    align-self: center;
+    justify-self: center;
+}
+
+.routers-container img{
+    width: 50px;
+    height: 50px;
+}
+
+img.disable:hover{
+    opacity: 0.5;
+    cursor:no-drop;
+}
+

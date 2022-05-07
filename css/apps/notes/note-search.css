@@ -1,0 +1,29 @@
+.search-nav{
+    background-color: var(--clrWhite);
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+}
+
+.search-nav img{
+    margin: 0 7px;
+}
+
+.search-nav input{
+    margin: 10px 0;
+    border-inline-end: 1px solid black;
+}
+
+.search-nav input:focus-visible{
+    border-inline-end: 1px solid black;
+}
+
+.search-container .search-nav select{
+    border: 0;
+}
+
+.search-container .search-nav select:focus-visible{
+    border: 0;
+    outline: var(--clrWhite);
+}
+

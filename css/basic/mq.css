@@ -1,0 +1,30 @@
+/* MOBILE ONLY  */
+
+@media (max-width: 500px) {
+    .books-txt{
+        font-size: 1em;
+        width: 127px;
+        top: 8%;
+    }
+}
+
+
+/* SMALL */
+
+@media (min-width: 500px) {
+    .books-txt{
+        font-size: 1.5em;
+        width: 200px;
+        top: 20%;
+    }
+}
+
+
+/* MEDIUM */
+
+@media (min-width: 830px) {
+    .books-txt{
+        font-size: 2.5em;
+        width: 400px;
+    }
+}

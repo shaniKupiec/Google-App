@@ -1,0 +1,16 @@
+.note-app{
+    margin: 0 5px;
+}
+
+.note-app > *:first-child{
+    margin-top: 10px
+}
+
+.note-app > *:nth-child(2){
+    margin: 10px 0;
+}
+
+.todo-done{
+    text-decoration: line-through;
+    text-decoration-color: var(--clrBlackBorder);
+}

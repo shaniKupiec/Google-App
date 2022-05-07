@@ -1,0 +1,65 @@
+.email-folder-list {
+    margin: 10px 20px;
+}
+
+.email-folder-list button {
+    font-family: google;
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    color: #3c4043;
+    width: 180px;
+    height: 48px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: inherit;
+    border: none;
+    border-radius: 24px;
+    font-weight: 500;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.state{
+    background-color: aqua;
+}
+
+.email-folder-list button:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 rgb(60 64 67 / 30%), 0 4px 8px 3px rgb(60 64 67 / 15%);
+    background-color: #fafafb;
+}
+
+.btn img {
+    margin-right: 10px;
+    vertical-align: baseline;
+}
+
+
+.btn span {
+    width: 100px;
+}
+
+.email-folder-list li {
+    width: 200px;
+    /* border-radius: 20px; */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+.email-folder-list li img{
+    margin-right: 20px;
+    opacity: 0.54;
+}
+
+.email-folder-list li:hover {
+    cursor: pointer;
+    background-color: #FCE8E6;
+    color: #D93025;
+    font-weight: 500;
+}
+
+.email-folder-list .unread-count{
+    margin-left: 60px;
+}

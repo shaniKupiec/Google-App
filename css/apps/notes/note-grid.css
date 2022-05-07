@@ -1,0 +1,79 @@
+.notes-area{
+    margin: 10px;
+    column-count: 6;
+    column-width: 210px;
+    padding-inline-start: 24px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.note-container{
+    width: fit-content;
+    width: 200px;
+    height: fit-content;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid var(--clrBlackBorder);
+    display: inline-flex;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+}
+
+.grid-division-msg{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+label img.icon {
+    margin-inline-end: 10px;
+}
+
+/* inside */
+
+.note-container h4{
+    margin-bottom: 7px;
+}
+
+.note-container p{
+    overflow: hidden;
+}
+
+.note-container .icons-nav{
+    padding-top: 12px;
+    visibility: hidden;
+}
+
+.note-container:hover .icons-nav{
+    visibility: visible;
+}
+
+/* colors */
+
+.modal-colors{
+    position: absolute;
+    width: fit-content;
+    right: -6%;
+    bottom: -26%;
+    background-color: var(--clrWhite);
+    padding: 5px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+    z-index: 10;
+}
+
+.color-palette-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+}
+
+.color-palette{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid var(--clrBlackBorder);
+}
+
+.color-palette:hover{
+    transform: scale(1.07);
+}

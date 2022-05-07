@@ -1,0 +1,33 @@
+.add-note-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.add-note-container > *{
+    padding-inline-start: 7px;
+    height: 50px;
+    background-color: var(--clrWhite);
+    width: 100%;
+}
+
+.add-note-container span input{
+    height: 50px;
+    background-color: var(--clrWhite);
+}
+
+.add-note-container .icons-nav{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.icons-nav-first-click .icon{
+    margin: 0 7px;
+}
+
+.add-note-container .icon{
+    top: 0;
+    cursor: pointer;
+}

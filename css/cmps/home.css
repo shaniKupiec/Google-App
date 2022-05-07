@@ -1,0 +1,31 @@
+.notes-card{
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.notes-card h1{
+    font-size: 2rem;
+    color: var(--clrPinRed);
+    text-align: center;
+}
+
+.notes-card h3{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.notes-card img{
+    margin-top: 20px;
+}
+
+.books-container{
+    position: relative;
+}
+
+.books-txt{
+    position: absolute;
+    left: 5%;
+    color: white;
+    text-transform: uppercase;
+}

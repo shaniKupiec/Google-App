@@ -1,0 +1,85 @@
+.compose-container {
+    border: 1px solid rgb(129, 127, 127);
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.compose-header{
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 15px 0;
+    height: auto;
+    line-height: 20px;
+    background-color: #404040;
+}
+
+.compose-header h1{
+    color: white;
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+.compose-header h2{
+    color: #9A9A9A;
+    margin-right: 15px;
+    font-size: 1em;
+}
+
+.compose-header h2:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.compose-main{
+    padding: 15px;
+}
+
+.compose-container label {
+    color: #3c4043;
+    font-family: roboto-bold;
+}
+
+.compose-container input {
+    width: 85%;
+    height: 40px;
+    border: none;
+    font-family: roboto;
+    font-size: 1em;
+    margin: 0;
+}
+
+.compose-container textarea {
+    font-size: 1.2em;
+    font-family: roboto;
+    border: none;
+    resize: none;
+}
+
+.compose-container textarea:focus, input:focus {
+    outline: none;
+}
+
+.compose-container button{
+    width: 97px;
+    outline: none;
+    padding: 0 16px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    height: 36px;
+    border-radius: 5px;
+    font-family: google;
+}
+
+.compose-container button:hover{
+    box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%);
+    background-color: #297be6;
+    outline: 1px solid transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.email-filter{
+    margin-bottom: 0;
+    margin-inline: auto;
+}
+
+hr{
+    opacity: .54;
+}
+
+.filter-nav{
+    background-color: white;
+    width: 60%;
+    margin: 10px 240px;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F1F3F4;
+    border-radius: 10px;
+}
+
+.filter-nav img{
+ opacity: .54;
+}
+
+.filter-nav img:hover{
+ opacity: 1;
+}
+
+.filter-nav input{
+    width: 60%;
+    border: 0;
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-family: roboto;
+    background-color: #F1F3F4;
+}
+
+.filter-nav select{
+    font-size: 1.2em;
+    font-family: roboto;
+    border: 0;
+    padding-left: 10px;
+    background-color: #F1F3F4;
+}
+
