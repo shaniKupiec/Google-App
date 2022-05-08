@@ -3,20 +3,19 @@ export default {
         <header>
             <div class="app-head flex space-between align-center main-layout">
                 <router-link class="logo" to="/">
-                    <img src="./imgs/other/logo1.png" alt="">
+                    <img src="./imgs/other/logo2.png" alt="">
                 </router-link>
-                <!-- <span class="search-nav">Search</span> -->
                 <span class="nav-bar">
                     <img class="menu-icon" @click="toggleMenu" src="./imgs/other/menu.png" alt="">
                     <div class="routers-container" :class="open" @click="toggleMenu">
-                        <router-link to="/">
+                        <router-link to="/" title="home">
                             <img src="./imgs/header/home.png" alt=""> 
                         </router-link> 
-                            <img src="./imgs/header/books.png" alt="">
-                        <router-link to="/mail/inbox">
+                        <img class="disable" src="./imgs/header/books.png" alt="">
+                        <router-link to="/mail/inbox" title="mails">
                             <img src="./imgs/header/mail.png" alt="">
                         </router-link>
-                        <router-link to="/note">
+                        <router-link to="/note" title="notes">
                             <img src="./imgs/header/notes.png" alt="">
                         </router-link> 
                         <img class="disable" src="./imgs/header/contact.png" alt="">
