@@ -3,6 +3,8 @@
 <p>App that combines 2 of google apps- google notes and gmail</p>
 <p>Collaborate with <a href="https://github.com/chenbezalel" target="blank">Chen Bezalel</a></p>
 
+![image not found](https://res.cloudinary.com/trellox/image/upload/v1657785929/github%20-%20readme/google_am4zd4.jpg)
+
 ## Features
 - Notes CRUD
 - Supports note with: image, video, sound, and list
